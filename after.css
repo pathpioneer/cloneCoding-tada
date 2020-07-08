@@ -1,0 +1,106 @@
+/* lineUp, useInfo, address */
+.lineUp{
+    padding-left: 360px;
+}
+
+#IDgoLeft, #IDgoRight{
+    cursor: pointer;
+}
+
+.lineUpList td{
+    font-weight: 700;
+    font-size: 1.3em;
+    padding-right: 50px;
+}
+
+#PREMIUM, #AIR, #PRIVATE, #GOLF{
+    cursor: pointer;
+    padding-bottom: 100px;
+}
+
+#tadaLineUp{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 3em;
+    margin-top: 100px;
+}
+
+#centerImg{
+    max-width: 600px;
+}
+
+.lineUpTable{
+    width: 1200px;
+}
+
+.L-1{
+    font-size: 2em;
+    font-weight: 700;
+    color: #19254d;
+}
+
+.L-1 p{
+    margin-bottom: 5px;
+}
+
+.L-2{
+    color: grey;
+}
+
+.L-3 li{
+    color:#656565;
+    list-style-type: none;
+}
+
+
+#td3{
+    padding-left: 40px;
+    padding-right: 100px;
+}
+
+.address{
+    background-color: #F5F6F7;
+}
+
+#addressP{
+    margin-left: 360px;
+    font-family: 'Noto Sans KR', sans-serif;
+    color: grey;
+    font-size: 0.9em;
+    margin-top: 30px;
+}
+
+#addressP img{
+    cursor: pointer;
+}
+
+.howToUse{
+    background-color: #19254d;
+}
+
+.useInfoTable{
+    margin-left: 360px;
+    font-family: 'Noto Sans KR', sans-serif;
+    margin-top: 150px;
+}
+
+.useInfoTable img{
+    max-width: 40px;
+    padding-right: 0;
+}
+
+.useInfoTable td{
+    font-size: 1.2em;
+    padding-right: 30px;
+    padding-bottom: 30px;
+}
+
+#useInfoH{
+    font-size: 2.9em;
+    font-weight: 500;
+    padding-bottom: 60px;
+}
+
+#u-1, #u-2, #u-3{
+    color: grey;
+    font-size: 1em;
+}

@@ -1,0 +1,44 @@
+.howToUse{
+    position: relative;
+}
+
+.howToUseTable{
+    margin-top: 100px;
+    color: white;
+    margin-left: 360px;
+}   
+
+.howToUseTable td{
+    line-height: 50%;
+    color: #DCDEDF;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.howToUseTable img{
+    max-width: 70px;
+    margin: 0 auto;
+}
+
+#iosBorder{
+    max-width: 400px;
+}
+
+#howToContent{
+    max-width: 240px;
+    position: absolute;
+    top: 170px;
+    left: 520px;
+}
+
+#toptop{
+    font-size: 2.7em;
+    font-weight: 500;
+}
+
+#btTd{
+    padding-left: 80px;
+}
+
+#midmid{
+    font-size: 1.2em;
+}

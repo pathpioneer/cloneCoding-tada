@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="index.css">
+        <link rel="stylesheet" type="text/css" href="etc.css">
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="after.css">
+        <link rel="stylesheet" type="text/css" href="howToUse.css">
+        <title>타다 : TADA</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="menu">
+                <table class = "menuTable">
+                    <tr>
+                        <td><img src="tadaLogo.png" id="tadaLogo"></td>
+                        <td>이용방법</td>
+                        <td>도움말</td>
+                        <td>타다 비즈니스</td>
+                        <td>드라이버 지원</td>
+                        <td>VCNC 채용</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="main">
+                <p>일상에서 누리는 편안함<br>
+                이동의 기본, 타다
+                </p>
+                <table class="iconTable">
+                    <tr>
+                        <td id="iosPng">
+                            <img src="ios.png">
+                        </td>
+                        <td id="googlePng">
+                            <img src="google.png">
+                        </td>
+                    </tr>
+                </table>
+                <img src="down.png" id="downImg" onclick="down();">
+            </div>
+            <div class="explanation">
+                <table class="explanation-table">
+                    <tr>
+                        <td id="tdtd">
+                            당신은 언제나<br>
+                            더 나은 이동을<br>
+                            선택할 수 있습니다.
+                        </td>
+                        <td>
+                            하루 평균 이동 시간은 약 2시간.<br>
+                            매일 2시간을 쾌적하고 안전하게 보낼 수 있도록<br>
+                            타다는 이동의 기본을 지키며<br>
+                            더 나은 이동을, 더 나은 삶을 만들어갑니다.<br>
+                            편안한 이동이 필요한 순간 타다와 함께하세요.
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="function">
+                <table class="functionImage">
+                    <tr>
+                        <td><img src="convi.jpg"></td>
+                        <td><img src="safe.jpg"></td>
+                        <td><img src="honest.jpg"></td>
+                    </tr>
+                    <tr id = "function-theme">
+                        <td>더 편안하게</td>
+                        <td>더 안전하게</td>
+                        <td>더 정직하게</td>
+                    </tr>
+                    <tr id = "function-explain">
+                        <td>쾌적한 실내 공간<br>
+                            무료 와이파이와 충전기 제공<br>
+                            디퓨저 향기와 클래식 음악</td>
+                        <td>친절한 응대 매뉴얼<br>
+                            서로를 배려하는 적절한 거리<br>
+                            드라이버 평가 시스템</td>
+                        <td>승차거부 없는 바로배차<br>
+                            네비게이션 대로 최적 경로 운행</td>
+                    </tr>
+                </table>
+            </div>
+
+
+            <div class="lineUp">
+                <p id="tadaLineUp">타다 라인업</p>
+                
+                <table class = "lineUpList">
+                    <tr>
+                        <td id="PREMIUM" onclick="lineUpClick_0()";>
+                            PREMIUM
+                        </td>
+                        <td id="AIR" onclick="lineUpClick_1();">
+                            AIR
+                        </td>
+                        <td id="PRIVATE" onclick="lineUpClick_2();">
+                            PRIVATE
+                        </td>
+                        <td id="GOLF" onclick="lineUpClick_3();">
+                            GOLF
+                        </td>
+                    </tr>
+                </table>
+
+                <table class = "lineUpTable">
+                    <tr>
+                        <td><img src="https://img.icons8.com/ios-filled/48/000000/double-left.png"
+                            onclick = "goLeft()"; id="IDgoLeft"/></td>
+                        <td><img src="premium.png" name="lineUpImg" id="centerImg"></td>
+                        <td id="td3">
+                            <div class = "L-1">
+                                <p>PREMIUM</p>
+                            </div>
+                            <div class = "L-2">
+                                <h7>준고급 세단과 전문 드라이버</h7> <br><br>
+                            </div>
+                            <div class = "L-3">
+                                <li id="li-1">호출 즉시 시스템으로 바로배차</li>
+                                <li id="li-2">2,800cc 이상 프리미엄 세단의 편안한 승차감</li>
+                                <li id="li-3">베테랑 전문 드라이버의 안정적인 운행</li>
+                                <li id="li-4">중요한 비즈니스, 특별한 약속, 의전을 위한 이동</li>
+                            </div>
+                        </td>
+                        <td><img src="https://img.icons8.com/ios-filled/48/000000/double-right.png"
+                            onclick = "goRight()"; id="IDgoRight"/></td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="howToUse">
+                <table class="howToUseTable">
+                    <tr>
+                        <td rowspan="1"><img src="LL.png" onclick="LL();" id="IDLL"></td>
+                        <td rowspan="1"><img src="iosBorder.png" id="iosBorder"/><img src="C1.jpg"
+                            id="howToContent" name="CCC"></td>
+                        <td rowspan="1"><img src="RR.png" onclick="RR();" id="IDRR"></td>
+                        <td id="btTd">
+                            <p id="toptop">타다 이용 방법<br><br><br><br><br><br><br></p>
+                            <p id="midmid">회원가입<br><br><br></p>
+                            <p id="bto1">휴대폰 번호로 간편하게 가입한 후</p>
+                            <p id="bto2">결제 카드 정보를 입력해주세요.</p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="useInfo">
+                <table class = "useInfoTable">
+                    <tr>
+                        <td id="useInfoH" colspan="3">타다 이용 안내</td>
+                    </tr>
+                    <tr>
+                        <td><img src="useTime.png"></td>
+                        <td>서비스 이용시간</td>
+                        <td id="u-1">24시간 이용가능</td>
+                    </tr>
+                    <tr>
+                        <td><img src="start.png"></td>
+                        <td>출발가능지역</td>
+                        <td id="u-2">서울특별시, 인천공항, 광명시, 위례 신도시</td>
+                    </tr>
+                    <tr>
+                        <td><img src="arrive.png"></td>
+                        <td>도착가능지역</td>
+                        <td id="u-3">제한없음<br>*예약 서비스의 (타다 AIR, 타다 PRIVATE) 이용 가능 지역은 타다 앱에서 확인하실 수 있습니다.</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="address">
+                <p id="addressP">
+                    브이씨엔씨 주식회사   |   대표 : 박재욱
+                    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+                    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+                    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+                    
+                    이용약관&emsp;개인정보&nbsp;처리방침 &emsp;
+                    <img src="https://img.icons8.com/material-sharp/24/000000/facebook-new.png"/>&emsp;
+                    <img src="https://img.icons8.com/ios-glyphs/24/000000/instagram-new.png"/>&emsp;
+                    <img src="https://img.icons8.com/windows/24/000000/youtube-squared.png"/>&emsp;
+                    <img src="https://img.icons8.com/ios-filled/24/000000/circled-n.png"/>&emsp;
+                    <br>
+                    통신판매번호 : 2015-서울강남-01065   |   사업자등록번호 : 119-86-38202<br>
+                    서울특별시 성동구 연무장7길 11<br>
+                    사업제휴문의 : partner@tadatada.com   |   마케팅문의 : marketing@tadatada.com<br>
+                    고객센터 : help@tadatada.com   |   1800-8437
+                </p>
+            </div>
+        </div>
+        
+        <script src="howToUse.js"></script>
+        <script src="lineUp.js"></script>
+        <script src="index.js"></script>
+    </body>
+</html>

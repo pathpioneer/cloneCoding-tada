@@ -1,0 +1,129 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    overflow-y: scroll;
+}
+
+body::-webkit-scrollbar{
+    display: none;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 80px 860px 300px 600px 800px 800px 650px 180px;
+    grid-template-areas: 
+        "menu"
+        "main"
+        "explanation"
+        "function"
+        "lineUp"
+        "howToUse"
+        "useInfo"
+        "address"
+    ;
+}
+
+.menu{
+    grid-area: menu;
+    transition: top 0.4s;
+    position: fixed;
+    top: 0;
+    background-color: white;
+    width: 100%;
+    height: 80px;
+}
+
+.menuTable{
+    margin-left: 360px;
+    margin-top: 20px;
+}
+
+.menuTable td{
+    font-size: 0.9em;
+    padding-right: 50px;
+    cursor: pointer;
+}
+
+.menuTable td:hover{
+    color: #42B2DF;
+    font-weight: 600;
+}
+
+#tadaLogo{
+    height: 30px;
+}
+
+.main{
+    border: none;
+    grid-area: main;
+    background-image: url("car.jpg");
+    background-size: cover;
+    text-align: center;
+    font-size: 2.5em;
+    padding-top: 150px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 400;
+}
+
+.explanation{
+    border:none;
+    grid-area: explanation;
+    background-color: #19254d;
+    color: #F2F3F5;
+}
+
+.function{
+    margin: 0 auto;
+    grid-area: function;
+    width: 63%;
+    border-bottom: 1px solid;
+    border-color: lightgray;
+}
+
+.functionImage{
+    margin: 0 auto;
+    margin-top: 80px;
+}
+
+.functionImage td{
+    padding-right: 50px;
+    font-family: 'Noto Sans KR', sans-serif;
+    padding-bottom: 20px;
+}
+
+.functionImage img{
+    width: 350px;
+    height: 200px;
+}
+
+#function-theme{
+    font-size: 2em;
+}
+
+#function-explain{
+    color: #696A6B;
+}
+
+.lineUp{
+    grid-area: lineUp;
+}
+
+.howToUse{
+    grid-area: howToUse;
+}
+
+.useInfo{
+    grid-area: useInfo;
+}
+
+.address{
+    grid-area: address;
+}
+
+#IDLL, #IDRR{
+    cursor: pointer;
+}

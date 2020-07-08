@@ -1,0 +1,36 @@
+.explanation-table{
+    margin-left: 360px;
+    margin-top: 70px;
+}
+
+.explanation-table td{
+    padding-right: 360px;
+    font-family: Arial;
+    line-height: 2em;
+}
+
+#tdtd{
+    font-size: 1.8em;
+    line-height: 50px;
+}
+
+#iosPng img{
+    height: 100px;
+    cursor: pointer;
+}
+
+#googlePng img{
+    height: 55px;
+    width: 150px;
+    cursor: pointer;
+}
+
+.iconTable {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#downImg{
+    cursor: pointer;
+    margin-top: 350px;
+}

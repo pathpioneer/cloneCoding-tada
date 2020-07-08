@@ -1,0 +1,65 @@
+/* this method was used for making
+   it would be great if familiarize */
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  1  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+function down(){
+    window.scrollTo(0,950);
+}
+
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  2  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+scroll-behavior: smooth;
+
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  3  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+body{
+    margin: 0;
+    overflow-y: scroll;
+}
+
+body::-webkit-scrollbar{
+    display: none;
+}
+
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  4  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+background-size: cover; 
+
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  5  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+margin: 0 auto;
+-> table center
+
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  6  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+&nbsp;  -> html space 1
+&emsp;  -> html space 2
+
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  7  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+line-height: 120%; -> css 문장 간격 조절
+
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  8  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+In dark background, greytic color would be great than white font!
+
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  9  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+const downContainer = document.getElementById("downImg");
+
+function down(){
+    window.scrollTo(0,950);
+}
+
+var nowScroll = window.pageYOffset;
+window.onscroll = function(){
+    var currentScroll = window.pageYOffset;
+    if(nowScroll > currentScroll){
+        document.querySelector(".menu").style.top = "0";
+    }else{
+        document.querySelector(".menu").style.top = "-80px";
+    }
+    nowScroll = currentScroll;
+}
+
+-> menu  down: hidden, up: show
